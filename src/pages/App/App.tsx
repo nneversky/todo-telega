@@ -4,10 +4,10 @@ import Settings from "../../components/Settings";
 function App() {
   return (
     <section className="app night-theme">
-      <div className="app__header">
-        <p className="p">
+      <div className="app__header ">
+        <div className="about">
           <Settings />
-        </p>
+        </div>
       </div>
     </section>
   );
