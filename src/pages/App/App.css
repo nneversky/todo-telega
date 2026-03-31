@@ -1,0 +1,24 @@
+:root {
+  background-color: #202124;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.app__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 6vh;
+  width: 100%;
+  box-shadow: 0 1px 0 0 rgb(189, 189, 189);
+}
+
+.p {
+  width: 8vw;
+}

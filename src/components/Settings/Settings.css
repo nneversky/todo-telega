@@ -1,0 +1,20 @@
+.settings-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.settings-icon.animate {
+  animation: clickEffect 1s ease forwards;
+}
+
+@keyframes clickEffect {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9) rotate(90deg);
+  }
+}
